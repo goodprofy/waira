@@ -29,5 +29,8 @@
   "homepage": "https://github.com/goodprofy/waira#readme",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
 }
