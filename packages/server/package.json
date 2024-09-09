@@ -1,0 +1,30 @@
+{
+  "name": "@waira/server",
+  "version": "1.0.0",
+  "description": "Server chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodprofy/waira.git"
+  },
+  "keywords": [
+    "ai",
+    "chatgpt",
+    "llm"
+  ],
+  "author": "Yuriy Dolganov",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/goodprofy/waira/issues"
+  },
+  "homepage": "https://github.com/goodprofy/waira#readme"
+}
