@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+
+.env
+.eslintcache
+
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,52 @@
+{
+  "name": "waira",
+  "version": "1.0.0",
+  "description": "AI chat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "run-p -c typecheck:*",
+    "typecheck:server": "tsc -p ./packages/server/tsconfig.json",
+    "typecheck:web": "tsc -p ./packages/web/tsconfig.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.10.0",
+    "@types/eslint__js": "8.42.3",
+    "eslint": "9.10.0",
+    "globals": "15.9.0",
+    "husky": "9.1.5",
+    "lint-staged": "15.2.10",
+    "npm-run-all": "4.1.5",
+    "prettier": "3.3.3",
+    "rimraf": "6.0.1",
+    "typescript": "5.5.4",
+    "typescript-eslint": "8.4.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "ai",
+    "chatgpt",
+    "llm"
+  ],
+  "author": "Yuriy Dolganov",
+  "homepage": "https://github.com/goodprofy/waira#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodprofy/waira.git"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/goodprofy/waira/issues"
+  }
+}
