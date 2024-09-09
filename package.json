@@ -3,19 +3,29 @@
   "version": "1.0.0",
   "description": "AI chat",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/goodprofy/waira.git"
+  "devDependencies": {
+    "husky": "9.1.5",
+    "lint-staged": "15.2.10",
+    "prettier": "3.3.3"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [
     "ai",
     "chatgpt",
     "llm"
   ],
   "author": "Yuriy Dolganov",
+  "homepage": "https://github.com/goodprofy/waira#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodprofy/waira.git"
+  },
   "license": "MIT",
   "licenses": [
     {
@@ -25,12 +35,5 @@
   ],
   "bugs": {
     "url": "https://github.com/goodprofy/waira/issues"
-  },
-  "homepage": "https://github.com/goodprofy/waira#readme",
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "prettier": "3.3.3"
   }
 }
