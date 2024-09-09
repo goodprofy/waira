@@ -19,6 +19,5 @@
     "strict": true,
     "target": "ESNext",
     "useDefineForClassFields": true
-  },
-  "include": ["**/*.js", "**/*.ts"]
+  }
 }

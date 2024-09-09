@@ -3,5 +3,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "target": "ES2021"
-  }
+  },
+  "include": ["**/*.js", "**/*.ts"]
 }
