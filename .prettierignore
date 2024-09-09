@@ -1,7 +1,7 @@
 node_modules/
 coverage/
 
-.eslintcache
+package-lock.json
 
 Thumbs.db
 .DS_Store
