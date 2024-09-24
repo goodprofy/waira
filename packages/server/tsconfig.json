@@ -2,7 +2,8 @@
   "extends": "../../tsconfigs/tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "ES2021"
+    "target": "ESNext"
   },
-  "include": ["**/*.js", "**/*.ts"]
+  "include": ["**/*.js", "**/*.ts"],
+  "exclude": ["dist"]
 }
