@@ -9,8 +9,13 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "typecheck": "run-p -c typecheck:*",
-    "typecheck:server": "tsc -p ./packages/server/tsconfig.json",
-    "typecheck:web": "tsc -p ./packages/web/tsconfig.json"
+    "typecheck:server": "npm run typecheck -w @waira/server",
+    "typecheck:web": "npm run typecheck -w @waira/web",
+    "server:build": "npm run build -w @waira/server",
+    "server:start": "npm run start -w @waira/server"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5"
   },
   "devDependencies": {
     "@eslint/js": "9.10.0",
